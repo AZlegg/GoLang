@@ -1,0 +1,27 @@
+Tell Go your GOPATH: 
+
+	export GOPATH=~/go
+
+Save your GOPATH so that it will apply to all future shell sessions: 
+
+	echo export GOPATH=$GOPATH >> ~/.bash_profile
+
+
+
+To get the Revel framework, run:
+
+	go get github.com/revel/revel
+
+Get and Build the Revel command line tool
+
+The revel command line tool is used to build, run, and package Revel applications.
+
+Use go get to install:
+
+	go get github.com/revel/cmd/revel
+
+
+
+Ensure the $GOPATH/bin directory is in your PATH so that you can reference the command from anywhere.
+
+	export PATH="$PATH:$GOPATH/bin"

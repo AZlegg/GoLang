@@ -1,2 +1,0 @@
-# GoLang
-Contains GoLang Projects
