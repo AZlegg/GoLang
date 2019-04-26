@@ -122,7 +122,7 @@ func Register() {
 				Args: []*revel.MethodArg{ 
 				},
 				RenderArgNames: map[int][]string{ 
-					13: []string{ 
+					14: []string{ 
 						"greeting",
 					},
 				},
@@ -133,7 +133,7 @@ func Register() {
 					&revel.MethodArg{Name: "myName", Type: reflect.TypeOf((*string)(nil)) },
 				},
 				RenderArgNames: map[int][]string{ 
-					26: []string{ 
+					27: []string{ 
 						"myName",
 					},
 				},
@@ -143,8 +143,8 @@ func Register() {
 	
 	revel.DefaultValidationKeys = map[string]map[int]string{ 
 		"myapp/app/controllers.App.Hello": { 
-			17: "myName",
 			18: "myName",
+			19: "myName",
 		},
 	}
 	testing.TestSuites = []interface{}{ 

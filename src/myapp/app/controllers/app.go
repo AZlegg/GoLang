@@ -2,6 +2,7 @@ package controllers
 
 import (
 	"github.com/revel/revel"
+	//"golang.org/x/crypto/bcrypt"
 )
 
 type App struct {
